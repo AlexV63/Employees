@@ -1,7 +1,7 @@
 public class OrdinaryEmployee extends Employee {
 
 
-    public OrdinaryEmployee(String name, String surname, int age, String position) {
-        super(name, surname, age, position);
+    public OrdinaryEmployee(String name, String surname, int age) {
+        super(name, surname, age, PositionType.EMPLOYEE);
     }
 }

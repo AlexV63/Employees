@@ -1,4 +1,4 @@
-public enum Position {
+public enum PositionType {
     TOPMANAGER,
     MIDLEVEL,
     EMPLOYEE,

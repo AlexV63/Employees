@@ -1,13 +1,15 @@
+import java.util.ArrayList;
+
 public class Employee {
     private String name;
     private String surname;
     private int age;
-    private String position;
+    protected PositionType position;
 
-    Employee employee = new Employee("", "", 0, position);
+    Employee employee;
 
 
-    public Employee(String name, String surname, int age, String position) {
+    public Employee(String name, String surname, int age, PositionType position) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -38,11 +40,11 @@ public class Employee {
         this.age = age;
     }
 
-    public String getPosition() {
+    public PositionType getPosition() {
         return position;
     }
 
-    public void setPosition(String position) {
+    public void setPosition(PositionType position) {
         this.position = position;
     }
 
@@ -53,6 +55,7 @@ public class Employee {
     public void setEmployee(Employee employee) {
         this.employee = employee;
     }
+
+
+
 }
-
-
